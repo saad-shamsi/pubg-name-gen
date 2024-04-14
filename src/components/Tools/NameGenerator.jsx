@@ -2,7 +2,7 @@
 import React, { useState, useEffect } from 'react';
 
 // Assuming you have this utility function
-import { generateMultipleUniqueNames } from '@/src/components/Tools/NameGenerator';
+import { generateMultipleUniqueNames } from '@/src/components/Tools/generateMultipleUniqueNames';
 
 const NameBox = ({ name, handleCopy, copied }) => {
     return (
